@@ -14,7 +14,6 @@ def quick_sort(numbers: list, left: int, right: int) -> list:
     i = left
     j = right
     pivot = numbers[RI(left, right)]
-    print(pivot)
     while i <= j:
         while numbers[i] < pivot:
             i += 1
